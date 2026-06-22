@@ -6,11 +6,6 @@ description: i8, i16, i32, i64, i128, isize, u8, u16, u32, u64, u128, usize
 ---
 
 In Rust, integers are primitive types used to represent whole numbers.
-They come in both signed and unsigned varieties,
-with different sizes available for optimal performance or specific use cases.
-Rust provides multiple integer types with different ranges, ensuring type safety and efficient memory use.
-
-#### Signed vs. Unsigned Integers
 
 - **Signed integers** (`i`) can store both positive and negative numbers.
   The sign takes one bit, so the range of values is reduced compared to unsigned integers of the same size.
@@ -37,7 +32,6 @@ Rust provides multiple integer types with different ranges, ensuring type safety
 
 The `isize` and `usize` types depend on the system’s architecture.
 On a 32-bit system, they are 32 bits wide, and on a 64-bit system, they are 64 bits wide.
-These are commonly used when indexing collections or working with memory addresses.
 
 #### Creating and Using Integers
 
@@ -79,7 +73,7 @@ You can also use methods like `.wrapping_add()`, `.checked_add()`, `.saturating_
 and `.overflowing_add()` to handle overflows explicitly.
 
 ```rust
-let result = 255u8.wrapping_add(1); // Wraps to 0
+let result = 255u8.wrapping_add(1); // wraps to 0
 ```
 
 #### Conversion Between Integer Types
