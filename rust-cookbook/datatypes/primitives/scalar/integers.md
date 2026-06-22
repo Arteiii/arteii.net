@@ -30,8 +30,8 @@ Rust provides multiple integer types with different ranges, ensuring type safety
 | `u32`   | 32-bit                 | 0 to 4,294,967,295                                      |
 | `i64`   | 64-bit                 | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | `u64`   | 64-bit                 | 0 to 18,446,744,073,709,551,615                         |
-| `i128`  | 128-bit                | Huge range                                              |
-| `u128`  | 128-bit                | Huge range                                              |
+| `i128`  | 128-bit                | Huuuuugeee                                              |
+| `u128`  | 128-bit                | Huuuge aswell                                           |
 | `isize` | Architecture-dependent | Varies based on CPU architecture (32 or 64-bit)         |
 | `usize` | Architecture-dependent | Varies based on CPU architecture (32 or 64-bit)         |
 
