@@ -24,7 +24,7 @@ const internetProfiles = {
   },
   email: {
     label: "Email",
-    href: "mailto:bpilger@sparx.foundation",
+    href: "mailto:ben.pilger@arteii.net",
   },
   blog: {
     label: "Blog",
