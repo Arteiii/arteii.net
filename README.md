@@ -1,12 +1,11 @@
 # Arteii - Ben
 
-* [About](https://www.google.com/search?q=%23about)
-* [Socials](https://www.google.com/search?q=%23socials)
-* [Getting Started](https://www.google.com/search?q=%23getting-started)
-* [Development Setup](https://www.google.com/search?q=%23development-setup)
-* [License](https://www.google.com/search?q=%23license)
-* [Acknowledgements](https://www.google.com/search?q=%23acknowledgements)
-* [Feedback](https://www.google.com/search?q=%23feedback)
+- [Arteii - Ben](#arteii---ben)
+  - [About](#about)
+  - [Socials](#socials)
+  - [Getting Started](#getting-started)
+  - [Feedback](#feedback)
+ 
 
 ## About
 
@@ -16,9 +15,9 @@ This documentation website is a collection of blogs and documents I've created t
 
 Connect with me:
 
-* GitHub: [Arteiii](https://github.com/Arteiii)
-* Discord: `arteii`
-* Email: [ben.pilger@arteii.net](mailto:ben.pilger@arteii.net)
+- GitHub: [Arteiii](https://github.com/Arteiii)
+- Discord: `arteii`
+- Email: [ben.pilger@arteii.net](mailto:ben.pilger@arteii.net)
 
 ## Getting Started
 
@@ -63,10 +62,10 @@ yarn start
 
 **Available Yarn Commands:**
 
-* `yarn start`: Starts the development server.
-* `yarn build`: Builds the production site.
-* `yarn serve`: Serves the built site locally.
-* `yarn upgrade:docusaurus`: Upgrades Docusaurus core dependencies.
+- `yarn start`: Starts the development server.
+- `yarn build`: Builds the production site.
+- `yarn serve`: Serves the built site locally.
+- `yarn upgrade:docusaurus`: Upgrades Docusaurus core dependencies.
 
 
 ## Acknowledgements
@@ -80,5 +79,5 @@ If you have any feedback, suggestions, or questions about the content, feel free
 
 ## License
 
-This project is licensed under the **FOUL** (Fair Open-Use License).
+This project is licensed under the MIT License.
 
