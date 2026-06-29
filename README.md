@@ -18,7 +18,7 @@ Connect with me:
 
 * GitHub: [Arteiii](https://www.google.com/search?q=https://github.com/Arteiii)
 * Discord: `arteii`
-* Email: [arteii@sparx.foundation](https://www.google.com/search?q=mailto%3Aarteii%40sparx.foundation)
+* Email: [ben.pilger@arteii.net](https://www.google.com/search?q=mailto%3Aarteii%40sparx.foundation)
 
 ## Getting Started
 
