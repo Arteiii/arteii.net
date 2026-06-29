@@ -1,67 +1,21 @@
-FOUL (Fair Open-Use License)
-Version 1.0
+MIT License
 
-Copyright (C) 2026 Ben Pilger
+Copyright (c) 2026 Ben Pilger
 
-License: This license allows you to use, modify, and distribute this software under the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. Open-Source Requirement for Modifications & Hosting
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-If you host, modify, or extend this software, you must:
-Open-source your modifications under this same license.
-Publicly provide access to your modified source code.
-
-2. Open-Source Requirement for Any Interacting Software
-
-If you develop, distribute, or use any software that interacts with this software in any way, you must:
-Open-source your entire project under this same license.
-Publicly provide the full source code of your project.
-OR Purchase a commercial license to keep your project closed-source.
-
-Interaction includes, but is not limited to:
-Direct or indirect API usage (including via proxies or third-party tools).
-Libraries, plugins, or extensions that rely on this software.
-Automated processes, scripts, or integrations that depend on this software.
-Embedding, bundling, or distributing this software in any form.
-
-3. Open-Source Requirement for Hosting Providers
-
-If you provide services that host this software or any derivative work, you must:
-Open-source your entire hosting infrastructure, including all modifications and additional software used to provide these services, under this same license.
-Publicly disclose the source code and modifications of any software that interacts with this software.
-
-4. Redistribution Clause
-
-If you redistribute this software (in any form) or a derivative work:  
-
-You must either:
-Open-source your derivative work under this same license.
-OR Obtain a commercial license to keep your derivative work closed-source.
-
-This applies regardless of whether the redistribution is for profit or not.
-
-
-5. No Exceptions for Personal, Educational, or Non-Profit Use
-
-All users (individuals, businesses, and organizations) must follow these rules.
-Personal, educational, and non-profit projects are NOT exempt.
-They must either open-source their project OR purchase a commercial license.
-
-6. Enforcement & Licensing
-
-Non-compliance means you must stop using the software immediately.
-A commercial license is available for those who want to keep their software closed-source.
-
-7. Dispute Resolution
-
-In the event of any dispute arising out of or relating to this license, the parties agree to attempt to resolve the dispute through good faith negotiations. If the dispute cannot be resolved, it shall be settled by binding arbitration in accordance with the rules of [arbitration organization] in [jurisdiction].
-
-8. Warranty Disclaimer
-
-This software is provided "as-is," without any warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the author be liable for any damages arising from the use of this software.
-
-9. Acceptance
-
-By using, modifying, or distributing this software, you accept and agree to the terms of this license.
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
