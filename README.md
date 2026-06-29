@@ -16,13 +16,13 @@ This documentation website is a collection of blogs and documents I've created t
 
 Connect with me:
 
-* GitHub: [Arteiii](https://www.google.com/search?q=https://github.com/Arteiii)
+* GitHub: [Arteiii](https://github.com/Arteiii)
 * Discord: `arteii`
-* Email: [ben.pilger@arteii.net](https://www.google.com/search?q=mailto%3Aarteii%40sparx.foundation)
+* Email: [ben.pilger@arteii.net](mailto:ben.pilger@arteii.net)
 
 ## Getting Started
 
-To explore the content on this website, simply visit [https://arteii.net](https://www.google.com/search?q=https://arteii.net). You can navigate through the different sections and find articles on various topics.
+To explore the content on this website, simply visit [https://arteii.net](https://arteii.net). You can navigate through the different sections and find articles on various topics.
 
 ## Development Setup
 
@@ -71,7 +71,7 @@ yarn start
 
 ## Acknowledgements
 
-The base structure for this project was taken from [evantay.com](https://www.google.com/search?q=https://evantay.com/).
+The base structure for this project was taken from [evantay.com](https://evantay.com/).
 
 ## Feedback
 
