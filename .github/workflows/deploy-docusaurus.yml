@@ -15,6 +15,29 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v6
 
+      - name: Generate Digital Business Card (vCard)
+        run: |
+          mkdir -p static/download
+
+          AVATAR_B64=$(base64 -w 0 ./static/img/arteii_avatar_small.jpg)
+
+          cat << EOF > static/download/ben_pilger.vcf
+          BEGIN:VCARD
+          VERSION:3.0
+          FN:Ben Pilger
+          N:Pilger;Ben;;;
+          TITLE:Systems & Security Engineer, IT Trainer
+          TEL;TYPE=CELL,VOICE:+4916098641438
+          EMAIL;TYPE=PREF,INTERNET:ben.pilger@arteii.net
+          URL:https://arteii.net
+          PHOTO;TYPE=JPEG;ENCODING=B:${AVATAR_B64}
+          X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/ben-pilger/
+          X-SOCIALPROFILE;TYPE=github:https://github.com/Arteiii
+          X-SOCIALPROFILE;TYPE=xing:https://www.xing.com/profile/Ben_Pilger
+          REV:$(date -u +'%Y%m%dT%H%M%SZ')
+          END:VCARD
+          EOF
+
       - name: Compile LaTeX to PDF via XeLaTeX
         uses: xu-cheng/latex-action@v3
         with:

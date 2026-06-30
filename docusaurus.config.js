@@ -22,6 +22,10 @@ const internetProfiles = {
   //   label: "keybase",
   //   href: "https://keybase.io/arteii",
   // },
+  vcard: {
+    label: "Save Contact (vCard)",
+    to: "download/ben_pilger.vcf"
+  },
   resume: {
     label: "Resume & CV",
     to: "resume",
@@ -157,6 +161,7 @@ module.exports = {
         {
           title: "Connect",
           items: [
+            internetProfiles.vcard,
             internetProfiles.linkedin,
             internetProfiles.github,
             internetProfiles.email,
