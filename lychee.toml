@@ -12,8 +12,8 @@ exclude = [
 
 remap = [
     "^/ static/", 
-    "^/icons/* /static/icons/"
-    "^/assets/* /static/assets/"
-    "^/.well-known/* /static/.well-known/"
+    "^/icons/* /static/icons/",
+    "^/assets/* /static/assets/",
+    "^/.well-known/* /static/.well-known/",
     "^/landing-page/* /static/landing-page/"
 ]
