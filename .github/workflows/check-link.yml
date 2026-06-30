@@ -36,7 +36,15 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: --root-dir "./" --cache --max-cache-age 1d .
+          args: >
+            --root-dir "./" 
+            --remap "^/icons/ static/assets/icons/"
+            --remap "^/assets/ static/assets/"
+            --remap "^/.well-known/ static/.well-known/"
+            --remap "^/landing-page/ static/landing-page/"
+            --cache 
+            --max-cache-age 1d 
+            .
 
       - name: Save lychee cache
         uses: actions/cache/save@v4
