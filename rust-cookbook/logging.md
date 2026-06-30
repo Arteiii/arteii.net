@@ -167,7 +167,7 @@ syslog = "7.0.0"
 log = "0.4.22"
 ```
 
-Logs messages to [UNIX syslog]. Initializes logger backend
+Logs messages to syslog. Initializes logger backend
 with [`syslog::init`]. [`syslog::Facility`] records the program submitting
 the log entry's classification, [`log::LevelFilter`] denotes allowed log verbosity
 and `Option<&str>` holds optional application name.
@@ -188,7 +188,7 @@ fn main() -> Result<(), Error> {
 [`log::LevelFilter`]: https://docs.rs/log/*/log/enum.LevelFilter.html
 [`syslog::Facility`]: https://docs.rs/syslog/*/syslog/enum.Facility.html
 [`syslog::init`]: https://docs.rs/syslog/*/syslog/fn.init.html
-[UNIX syslog]: https://www.gnu.org/software/libc/manual/html_node/Overview-of-Syslog.html
+[Gnu syslog]: https://ftp.gnu.org/old-gnu/Manuals/glibc-2.2.3/html_node/libc_373.html
 
 ## Configuration
 
