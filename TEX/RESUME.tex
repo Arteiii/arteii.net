@@ -1,0 +1,88 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{fontspec}
+\setmainfont{JetBrains Mono}
+
+\usepackage[margin=1.2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{primary}{RGB}{44, 62, 80}
+\definecolor{sectioncolor}{RGB}{23, 37, 84}
+\definecolor{accent}{RGB}{41, 128, 185}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,      
+    urlcolor=accent,
+}
+\pagestyle{empty}
+
+\titleformat{\section}{\Large\bfseries\raggedright\color{sectioncolor}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{14pt}{6pt}
+
+\newcommand{\experienceitem}[4]{
+  \vspace{12pt}
+  \noindent{\large\textbf{\color{sectioncolor}#1}} \hfill \textit{#2} \\
+  \noindent\textit{#3} \hfill #4 \par
+  \vspace{2pt}
+}
+
+\begin{document}
+\begin{center}
+    {\Huge \textbf{\color{primary} Ben Pilger}} \\
+    \vspace{3pt}
+    {\large Systems \& Security Engineer} \\
+    \vspace{5pt}
+    \small
+    \faMapMarker* \ Stuttgart, Germany \quad
+    \faPhone \ +49 160 98641438 \quad
+    \faEnvelope \ \href{mailto:ben.pilger@arteii.net}{ben.pilger@arteii.net} \\ \vspace{3pt}
+    \faGlobe \ \href{https://arteii.net}{arteii.net} \quad
+    \faGithub \ \href{https://github.com/arteiii}{github.com/arteiii} \quad
+    \faLinkedin \ \href{https://linkedin.com/in/ben-pilger}{linkedin.com/in/ben-pilger}
+\end{center}
+
+\vspace{0.1em}
+
+\section{Executive Summary}
+\noindent High-performance Systems and Backend Engineer specializing in \textbf{Rust, C++, and low-level Windows Internals}. Track record in launching open-source research initiatives, designing decentralized Zero-Trust architectures, and providing technical leadership for complex enterprise IAM and fraud mitigation services from protocol specification to deployment. Combines advanced offensive security insights with the engineering discipline required to deliver fault-tolerant software at massive scale (>200K RPS) with strict sub-100ms latency guarantees.
+
+
+\section{Core Expertise}
+\begin{itemize}[leftmargin=0pt, listparindent=0pt, label={}]
+    \item \textbf{Languages:} Rust, C++, C, Erlang, TypeScript, x86-64 Assembly, Python, SQL
+    \item \textbf{Systems \& Security:} Windows Kernel Dev, Kernel Debugging (WinDbg), Reverse Engineering (IDA Pro, Ghidra), PKI, Custom Cryptographic Protocols, PAM/IAM Architecture
+    \item \textbf{Infrastructure:} Tokio, Actix, gRPC, REST, TCP/IP, TLS, AWS, Cloudflare, Docker, CI/CD
+\end{itemize}
+
+\section{Professional Experience}
+
+\experienceitem{AnyDesk Software GmbH}{Stuttgart, Germany}{Backend Engineer}{04/2025 – 06/2026}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Zero-Trust PAM Architecture:} Pioneered a novel Privileged Access Management solution, conceptualizing an asymmetric key-based configuration protocol and a decentralized PKI-service to eliminate single points of failure.
+    \item \textbf{High-Concurrency Infrastructure:} Migrated legacy polyglot services (C++, Erlang, TypeScript) to a high-performance Rust architecture, optimizing systems for >200K RPS and strict sub-100ms latency.
+\end{itemize}
+
+\experienceitem{Sparx.Foundation}{Global}{Founder \& Lead of Research and Development}{09/2024 – Present}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Low-Level R\&D:} Established an open-source research group focused on low-level systems programming, secure system design, and advanced architectural analysis.
+    \item \textbf{Security Publications:} Oversee development of open-source security tools and publish deep-dive documentation on kernel-level exploitation and hardware-assisted mitigations.
+\end{itemize}
+
+\experienceitem{Freelance R\&D / Self-Employed}{Stuttgart, Germany}{Systems \& Security Engineer}{2024 – 2025}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Kernel Engineering:} Developed Windows kernel-mode drivers and modules in Rust and C++, backed by deep binary analysis and reverse engineering of core operating system internals.
+    \item \textbf{Licensing Platforms:} Architected and deployed scalable user, sales, and license management infrastructures with automated software lifecycle installers and international payment gateways.
+\end{itemize}
+
+\experienceitem{Independent Security Researcher}{Remote}{Offensive Tooling \& Compatibility Engineering}{2022 – 2023}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Reverse Engineering:} Bypassed complex runtime integrity protections and anti-tamper mechanisms using static and dynamic analysis tools (IDA Pro, WinDbg).
+    \item \textbf{Memory Manipulation \& Stability:} Built high-performance user- and kernel-mode tooling for memory injections, maintaining strict runtime stability across hundreds of volatile Windows OS builds.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,124 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{fontspec}
+\setmainfont{JetBrains Mono}
+
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+
+\definecolor{primary}{RGB}{44, 62, 80}
+\definecolor{sectioncolor}{RGB}{23, 37, 84}
+\definecolor{accent}{RGB}{41, 128, 185}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,      
+    urlcolor=accent,
+}
+\pagestyle{empty}
+
+\titleformat{\section}{\Large\bfseries\raggedright\color{sectioncolor}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{14pt}{6pt}
+
+\newcommand{\experienceitem}[4]{
+  \vspace{12pt} 
+  \noindent{\large\textbf{\color{sectioncolor}#1}} \hfill \textit{#2} \\
+  \noindent\textit{#3} \hfill #4 \par %
+  \vspace{2pt} 
+}
+
+\begin{document}
+\begin{center}
+    {\Huge \textbf{\color{primary} Ben Pilger}} \\
+    \vspace{4pt}
+    {\large Systems \& Security Engineer \textbar\ IT Trainer} \\
+    \vspace{6pt}
+    \small
+    \faMapMarker* \ Stuttgart, Germany \quad
+    \faPhone \ +49 160 98641438 \quad
+    \faEnvelope \ \href{mailto:ben.pilger@arteii.net}{ben.pilger@arteii.net} \\ \vspace{3pt}
+    \faGlobe \ \href{https://arteii.net}{arteii.net} \quad
+    \faGithub \ \href{https://github.com/arteiii}{github.com/arteiii} \quad
+    \faLinkedin \ \href{https://linkedin.com/in/ben-pilger}{linkedin.com/in/ben-pilger}
+\end{center}
+
+\vspace{0.2em}
+
+\section{Core Competencies}
+\begin{itemize}[leftmargin=0pt, listparindent=0pt, label={}]
+    \item \textbf{Languages:} Rust, C++, C, Erlang, TypeScript, x86-64 Assembly, Python, SQL
+    \item \textbf{Domains:} Zero-Trust Architecture, Privileged Access Management (PAM), IAM, Cryptography, PKI, \\ Windows Internals, Kernel Debugging \& Development (Rust/C++), Systems Security, Reverse Engineering
+    \item \textbf{Frameworks \& Networking:} Tokio, Actix, gRPC, REST, TCP/IP, TLS, AWS, Cloudflare
+    \item \textbf{Tooling:} x64dbg, IDA Pro, Ghidra, WinDbg, WDK, CMake, Visual Studio, Docker, CI/CD
+\end{itemize}
+
+\section{Professional Experience}
+
+\experienceitem{Freelance Engineering \& IT Training}{Stuttgart, Germany}{Independent Consultant \& Technical Trainer}{06/2026 – Present}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Systems Engineering Consultancy:} Provide freelance research, architectural auditing, and development services specializing in backend scalability, high-concurrency tooling, and security hardening.
+    \item \textbf{Infrastructure Hosting:} Provision and manage secure, high-availability web hosting environments and custom deployment pipelines for local small-to-medium businesses (SMBs) on an ongoing basis.
+\end{itemize}
+
+\experienceitem{AnyDesk Software GmbH}{Stuttgart, Germany}{Backend Engineer}{04/2025 – 06/2026}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Decentralized PAM Architecture:} Pioneered a novel Privileged Access Management (PAM) infrastructure by conceptualising a peer-to-peer trust model that completely eliminated architectural Single Points of Failure (SPOFs).
+    \item \textbf{Cryptographic Protocol Engineering:} Designed and implemented the cryptographic backbone for the decentralized PAM ecosystem; developed a custom asymmetric key-based configuration protocol and a decentralized PKI-service to enforce end-to-end integrity and tamper-proof state synchronization.
+    \item \textbf{System Modernization \& Stability:} Contributed to the migration of legacy C++, Erlang, and TypeScript services to a high-performance Rust-based microservice architecture, optimizing for high-concurrency environments (>200K RPS) and strict sub-100ms latency guarantees.
+    \item \textbf{Enterprise Product Leadership:} Acted as a technical lead for complex enterprise requirements, managing the full lifecycle from requirement engineering and protocol specification to the delivery of scalable IAM and fraud mitigation services.
+\end{itemize}
+
+\experienceitem{Freelance R\&D / Self-Employed}{Stuttgart, Germany}{Systems \& Security Engineer}{2024 – 2025}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Low-Level Kernel Engineering:} Developed system-level drivers and modules interacting with the Windows kernel using Rust and C++. Performed deep-dive binary analysis and low-level debugging of core operating system architectures.
+    \item \textbf{Enterprise Platforms:} Architected a highly scalable sales, user, and license management infrastructure with integrated international payment gateways and automated client software lifecycle deployment.
+\end{itemize}
+
+\newpage
+
+\experienceitem{Sparx.Foundation}{Global}{Founder \& Lead of Research and Development}{09/2024 – Present}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Open-Source R\&D Leadership:} Established an open-source research group focusing on low-level systems programming, secure system design, and advanced architectural analysis.
+    \item \textbf{Threat Emulation Framework:} Architected and engineered an advanced network resilience and threat emulation platform ("\href{https://github.com/Arteiii/Actrax}{Actrax}") in Rust and C++ to evaluate detection engineering capabilities and endpoint defense mechanisms.
+    \item \textbf{Security Research \& Publication:} Oversee the lifecycle of open-source security tools and publish in-depth technical documentation covering kernel-level security and hardware-assisted mitigations.
+\end{itemize}
+
+\experienceitem{Independent Security Researcher}{Remote}{Offensive Tooling \& Compatibility Engineering}{2022 – 2023}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Reverse Engineering \& Integrity Bypasses:} Analyzed complex security mechanisms and runtime protections using IDA Pro and WinDbg to evaluate functional software integrity and binary execution flows.
+    \item \textbf{Aviation Infrastructure Utilities:} Engineered a custom suite of infrastructure utilities and configuration verification tools (including \href{https://github.com/Arteiii/uptimeMon}{uptimeMon}) designed to validate environment states and ensure high availability.
+    \item \textbf{Mass Deployment \& Compatibility:} Deployed and maintained custom software for a global user base, ensuring continuous runtime stability across hundreds of volatile Windows OS builds and custom hardware environments.
+\end{itemize}
+
+\section{Side Projects \& Community}
+
+\experienceitem{Creative \& Cultural Event Operations}{Stuttgart, Germany}{Co-Organizer \& Creative Coordinator}{2025 – Present}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Talent Booking \& Management:} Handled independent artist management, contractual bookings, and oversaw compliance with complex technical and hospitality riders.
+    \item \textbf{Event Safety \& Awareness:} Managed active awareness team operations during cultural club events, focusing on guest well-being, safe environments, and proactive conflict de-escalation.
+    \item \textbf{Creative Production \& Hospitality:} Planned and executed promotional photoshoots for artists, coordinated private post-event networking hospitality, and executed independent editorial modeling assignments.
+\end{itemize}
+
+\section{Research \& Open Source Projects}
+
+\experienceitem{Systems \& Security Research Platform}{\href{https://arteii.net}{arteii.net}}{Technical Author}{Ongoing}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \textbf{Windows Kernel Security Research:} Published low-level technical documentation and analysis covering Ring-0 driver architecture, exception handling routines, and hardware-assisted mitigations (IOMMU, Virtualization-Based Security).
+    \item \textbf{Low-Level Systems Analysis:} Authored mathematical and technical references targeting x86-64 assembly conventions and machine-level instruction sets.
+\end{itemize}
+
+\vspace{5pt}
+\noindent\textbf{GitHub Ecosystem} \hfill \textit{Core Contributor \& Maintainer}
+\begin{itemize}[leftmargin=1.5em, nosep]
+    \item \href{https://github.com/lycheeverse/lychee}{\textbf{lychee:}} Optimized engine performance and connection handling for the widely used asynchronous link-checking engine written in Rust.
+    \item \href{https://github.com/arteiii/zenity}{\textbf{zenity:}} Maintained and scaled a CLI UI framework in Rust, backed by JetBrains OSS sponsoring.
+    \item \href{https://github.com/Arteiii/RegistryHelper}{\textbf{RegistryHelper}} / \href{https://github.com/Arteiii/RegistryGuard}{\textbf{RegistryGuard}:} Authored a C++ helper tool designed for Windows registry configuration access and real-time modification tracking via thread-based background callbacks.
+    \item \href{https://github.com/Arteiii/limitr}{\textbf{limitr:}} Built a high-throughput rate-limiting and resource management utility for concurrent systems.
+    \item \href{https://github.com/Arteiii/web_client_lib}{\textbf{web\_client\_lib:}} Implemented a modular network library for streamlined, secure HTTP communications.
+\end{itemize}
+
+\end{document}
