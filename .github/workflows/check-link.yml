@@ -33,10 +33,10 @@ jobs:
 
       - name: Create symlinks for Lychee
         run: |
-          ln -s static/assets/icons ./icons
-          ln -s static/assets ./assets
-          ln -s static/.well-known ./.well-known
-          ln -s static/landing-page ./landing-page
+          ln -s "$GITHUB_WORKSPACE/static/assets/icons" ./icons
+          ln -s "$GITHUB_WORKSPACE/static/assets" ./assets
+          ln -s "$GITHUB_WORKSPACE/static/.well-known" ./.well-known
+          ln -s "$GITHUB_WORKSPACE/static/landing-page" ./landing-page
 
       - name: Link Checker
         id: lychee
