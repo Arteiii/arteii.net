@@ -116,7 +116,7 @@ export default function HeroSection() {
             aria-label="View professional documentation hub"
           >
             <DocumentRegular className="h-4 w-4" />
-            <span>View CV & Resume Hub</span>
+            <span>View CV & Resume</span>
           </Link>
         </div>
       </section>

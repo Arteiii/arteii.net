@@ -29,11 +29,9 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y pandoc
 
-          pandoc ./TEX/CV.tex --pdf-engine=xelatex -o CV.pdf
           pandoc ./TEX/CV.tex -t markdown -o CV.md
           pandoc ./TEX/CV.tex -s -t html -o CV.html
 
-          pandoc ./TEX/RESUME.tex --pdf-engine=xelatex -o RESUME.pdf
           pandoc ./TEX/RESUME.tex -t markdown -o RESUME.md
           pandoc ./TEX/RESUME.tex -s -t html -o RESUME.html
 
