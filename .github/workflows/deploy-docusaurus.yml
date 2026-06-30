@@ -18,9 +18,10 @@ jobs:
       - name: Compile LaTeX to PDF
         uses: xu-cheng/latex-action@v3
         with:
+          working_directory: ./TEX
           root_file: |
-            ./TEX/CV.tex
-            ./TEX/RESUME.tex
+            CV.tex
+            RESUME.tex
           compiler: xelatex
 
       - name: Convert LaTeX to MD and HTML
