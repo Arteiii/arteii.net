@@ -146,5 +146,4 @@ ufw allow 22/tcp
 - [IANA Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
 - [RFC 6335](https://datatracker.ietf.org/doc/html/rfc6335)
 - [wikipedia](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [COMMON PORTS Cheat Sheet (packetlife)](https://packetlife.net/media/library/23/common_ports.pdf)
 - [All Ports CheatSheet](https://github.com/shauryasharma-05/All-Ports-CheatSheet-/blob/master/AllPortsDB.txt)

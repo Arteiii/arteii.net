@@ -12,9 +12,7 @@ keywords:
   ]
 date: 2023-07-25T18:00
 draft: true
-
 ---
-
 
 In today's digital world, where data has immense value and communication is networked, the security of sensitive
 information is paramount.
@@ -34,10 +32,10 @@ encryption can be used for multiple securing operations such as:
 ### secure communication
 
 - web traffic
-    - https ([SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0))
+  - https ([SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0))
 - wireless
-    - WPA ([**W**i-Fi **P**rotected **A**ccess](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access))
-    - GSM ([**G**roupe **S**pecial **M**obile](https://de.wikipedia.org/wiki/Global_System_for_Mobile_Communications))
+  - WPA ([**W**i-Fi **P**rotected **A**ccess](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access))
+  - GSM ([**G**roupe **S**pecial **M**obile](https://de.wikipedia.org/wiki/Global_System_for_Mobile_Communications))
 
 ### Encryption On Disks
 
@@ -88,9 +86,6 @@ as you will see while reading
 - [wikipedia Secure Hash Algorithms](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms)
 - [wikipedia RSA (cryptosystem)](<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>)
 - [public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
-- [cybernews](https://cybernews.com/security/hashing-vs-encryption/)
 - [What is AES encryption and how does it work?](https://web.archive.org/web/20210811235422/https://cybernews.com/resources/what-is-aes-encryption/)
 - [cheatsheetseries](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
-- [Hashcat Benchmark](https://openbenchmarking.org/test/pts/hashcat-1.0.0)
-- [Just Cryptography](https://justcryptography.com/rsa-algorithm/)
 - [Dan Boneh | Stanford University](https://www.coursera.org/learn/crypto?)

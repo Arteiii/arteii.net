@@ -11,7 +11,6 @@ for docusaurus or different tools / websites
 
 ---
 
-
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 To serve as an example page when styling markdown based Docusaurus sites.
@@ -34,7 +33,6 @@ To serve as an example page when styling markdown based Docusaurus sites.
 
 ###### H6 - Create the best documentation
 
-
 ## Emphasis
 
 ---
@@ -53,17 +51,18 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 1. First ordered list item
 2. Another item
+
 - Unordered sub-list.
+
 3. Actual numbers don't matter, just that it's a number
 1. Ordered sub-list
-4. And another item.
+1. And another item.
 
 - Unordered list can use asterisks
 
 * Or minuses
 
 - Or pluses
-
 
 ## Links
 
@@ -79,21 +78,17 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Or leave it empty and use the [link text itself].
 
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or http://www.example.com/ and sometimes example.com (but not on GitHub, for example).
+URLs and URLs in angle brackets will automatically get turned into links. https://www.example.com/ or https://www.example.com/ and sometimes example.com (but not on GitHub, for example).
 
 Some text to show that the reference links can follow later.
 
-[arbitrary case-insensitive reference text]  https://www.mozilla.org/
-[1]  http://slashdot.org/
-[link text itself]  http://www.reddit.com/
-
-
+[arbitrary case-insensitive reference text] https://www.mozilla.org/
+[1] https://firefox.com/
+[link text itself] https://www.google.com/
 
 ## Images
 
 ---
-
-
 
 you can import assets and use them like this: (only if you use mdx)
 
@@ -103,31 +98,25 @@ import myImageUrl from "../../static/img/Website-Social-Card.jpeg";
 <img src={myImageUrl} width={250} height={250} alt="Example banner" />;
 ```
 
-
-
-
 import Logo from "../../static/img/Website-Social-Card.jpeg";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-<img src={Logo} width={250} height={250} alt="Example banner"/>
-
+<img src={Logo} width={250} height={250} alt="Example banner" />
 
 ---
 
 Inline-style:
 
-![alt text](https://arteiii.github.io/img/Website-Social-Card.jpeg "Logo Title Text 1")
+![alt text](https://arteii.net/img/Website-Social-Card.jpeg "Logo Title Text 1")
 
 ---
 
 Reference-style: ![alt text][logo]
 
-[logo]  https://arteiii.github.io/img/Website-Social-Card.jpeg "Logo Title Text 2"
+[logo] https://arteii.net/img/Website-Social-Card.jpeg "Logo Title Text 2"
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
-
-
 
 ## Code
 
@@ -149,11 +138,10 @@ But let's throw in a <b>tag</b>.
 ```
 
 ```js {2}
-var highlightMe = function (){
+var highlightMe = function () {
   console.log("This line can be highlighted!");
 };
 ```
-
 
 you can also set titles
 
@@ -167,8 +155,6 @@ s = "Python syntax highlighting"
 print(s)
 ```
 
-
-
 ## Tables
 
 ---
@@ -176,7 +162,7 @@ print(s)
 Colons can be used to align columns.
 
 | Tables        |      Are      |   Cool |
-|---------------|:-------------:|-------:|
+| ------------- | :-----------: | -----: |
 | col 3 is      | right-aligned | \$1600 |
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
@@ -184,11 +170,9 @@ Colons can be used to align columns.
 There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
 | Markdown | Less      | Pretty     |
-|----------|-----------|------------|
+| -------- | --------- | ---------- |
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
-
-
 
 ## Blockquotes
 
@@ -200,8 +184,6 @@ Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
 
-
-
 ## Inline HTML
 
 ---
@@ -212,9 +194,10 @@ Quote break.
 
     <dt>Markdown in HTML</dt>
     <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+
 </dl>
 
-<br/>
+<br />
 
 ## Line Breaks
 
@@ -226,7 +209,7 @@ This line is separated from the one above by two newlines, so it will be a _sepa
 
 This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
 
-<br/>
+<br />
 
 ## Admonitions
 
@@ -262,7 +245,6 @@ This is a warning
 
 :::
 
-
 ## MDX
 
 ---
@@ -270,7 +252,6 @@ This is a warning
 lets you use jsx in markdown
 
 [read more](https://mdxjs.com/)
-
 
 ### Tabs
 
@@ -295,18 +276,14 @@ import TabItem from "@theme/TabItem";
 </Tabs>
 ```
 
-
-
-
 <Tabs>
-    <TabItem value="apple" label="Apple" default>
-        This is an apple 🍎
-    </TabItem>
-    <TabItem value="orange" label="Orange">
-        This is an orange 🍊
-    </TabItem>
-    <TabItem value="banana" label="Banana">
-        This is a banana 🍌
-    </TabItem>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
 </Tabs>
-

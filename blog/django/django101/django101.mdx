@@ -3,19 +3,13 @@ slug: django101
 title: Django101 Hello World!
 authors: [arteii]
 keywords:
-- Django
-- Python
-- Python Framework
-- Django Hello World!
+  - Django
+  - Python
+  - Python Framework
+  - Django Hello World!
 date: 2023-07-09T22:00
 image: ./assets/django_initial_setup.png
 ---
-
-
-
-import python_download_site from "./assets/python_download_site.png";
-import python_installer_path from "./assets/python_installer_add_to_path.png";
-import django_initial_setup from "./assets/django_initial_setup.png";
 
 The world of web development is full of tools and frameworks, but when it comes to developing powerful and scalable web applications,
 Django is without a doubt one of the best options.
@@ -26,11 +20,9 @@ With Django, you can manage databases, forms, implement user authentication, and
 
 <!--truncate-->
 
-
 ## Setup
 
 ---
-
 
 ### Install Python3
 
@@ -39,23 +31,19 @@ Before we can get started with Django, we need to install Python.
 
 [Download Site](https://www.python.org/downloads/)
 
-<img src={python_download_site} width={450} alt="python download site image"/>
-
+<img src={./assets/python_download_site.png} width={450} alt="python download site image"/>
 
 After the download is complete, run the installer. Make sure you check "add python.exe to PATH".
 
-<img src={python_installer_path} width={450} alt="python download site iamge"/>
-
+<img src={./assets/python_installer_add_to_path.png} width={450} alt="python download site iamge"/>
 
 ### Install Django In pipenv
-
 
 First we are going to install pipenv using pip, we do this with the following command
 
 ```
 pip3 install pipenv
 ```
-
 
 Then we install Django in a virtual environment.
 to avoid possible compatibility issues with other projects.
@@ -66,13 +54,11 @@ So each project has its own Python and Django installation.
 pipenv install django
 ```
 
-
 activate the environment with:
 
 ```
 pipenv shell
 ```
-
 
 ### Start Django
 
@@ -82,13 +68,11 @@ Now we start a new Django project named "blog_arteii_example".
 django-admin startproject blog_arteii_example
 ```
 
-
 This will create a new folder if you create the project directly in the folder you are currently in:
 
 ```
 django-admin startproject blog_arteii_example .
 ```
-
 
 ```
 python manage.py runserver
@@ -103,7 +87,7 @@ http://127.0.0.1:8000/
 
 you should see:
 
-<img src={django_initial_setup} width={550} alt="python download site iamge"/>
+<img src={./assets/django_initial_setup.png} width={550} alt="python download site iamge"/>
 
 stop the server
 using ctrl + c
@@ -113,7 +97,6 @@ python manage.py migrate
 ```
 
 removes the error message that we used to get
-
 
 ## Hello World!
 
@@ -152,7 +135,6 @@ INSTALLED_APPS = [
 ...
 ```
 
-
 let's modify the views.py file
 so when the user requests the homepage i.e. the domain without any directory structure
 the function HelloWorld is returned
@@ -166,7 +148,6 @@ def HelloWorld(request):
     return HttpResponse('Hello World!')
 ```
 
-
 now create a new file with the name `urls.py` in pages (`.../blog_arteii_example/pages/urls.py`)
 and modify, so it looks like this:
 
@@ -178,7 +159,6 @@ urlpatterns = [
     path('', HelloWorld, name='home')
 ]
 ```
-
 
 Most Django projects use many different applications,
 and each of these applications needs its own URL path.
@@ -195,7 +175,6 @@ urlpatterns = [
     path('', include('pages.urls')),
 ]
 ```
-
 
 and last:
 

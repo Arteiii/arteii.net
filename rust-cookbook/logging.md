@@ -25,7 +25,7 @@ env_logger = "0.11.5"
 ```
 
 The `log` crate provides logging utilities. The `env_logger` crate configures
-logging via an environment variable.  The [`log::debug!`] macro works like other
+logging via an environment variable. The [`log::debug!`] macro works like other
 [`std::fmt`] formatted strings.
 
 ```rust
@@ -67,7 +67,7 @@ log = "0.4.22"
 env_logger = "0.11.5"
 ```
 
-Proper error handling considers exceptions exceptional.  Here, an error logs
+Proper error handling considers exceptions exceptional. Here, an error logs
 to stderr with `log`'s convenience macro [`log::error!`].
 
 ```rust
@@ -111,7 +111,6 @@ fn main() {
 
 [`Builder::target`]: https://docs.rs/env_logger/*/env_logger/struct.Builder.html#method.target
 [`Target::Stdout`]: https://docs.rs/env_logger/*/env_logger/fmt/enum.Target.html
-
 
 ### Log messages with a custom logger
 
@@ -160,7 +159,6 @@ fn main() -> Result<(), SetLoggerError> {
 [`log::Log`]: https://docs.rs/log/*/log/trait.Log.html
 [`log::set_logger`]: https://docs.rs/log/*/log/fn.set_logger.html
 
-
 ### Log to the Unix syslog
 
 ```toml
@@ -190,7 +188,6 @@ fn main() -> Result<(), Error> {
 [`log::LevelFilter`]: https://docs.rs/log/*/log/enum.LevelFilter.html
 [`syslog::Facility`]: https://docs.rs/syslog/*/syslog/enum.Facility.html
 [`syslog::init`]: https://docs.rs/syslog/*/syslog/fn.init.html
-
 [UNIX syslog]: https://www.gnu.org/software/libc/manual/html_node/Overview-of-Syslog.html
 
 ## Configuration
@@ -256,7 +253,6 @@ DEBUG:test::foo::bar: [bar] debug
 [`log::Level`]: https://docs.rs/log/*/log/enum.Level.html
 [`RUST_LOG`]: https://docs.rs/env_logger/*/env_logger/#enabling-logging
 
-
 ### Use a custom environment variable to set up logging
 
 ```toml
@@ -287,7 +283,6 @@ fn main() {
 [`Builder::from_env`]: https://docs.rs/env_logger/*/env_logger/struct.Builder.html#method.from_env
 [`Builder::init`]: https://docs.rs/env_logger/*/env_logger/struct.Builder.html#method.init
 [`RUST_LOG`]: https://docs.rs/env_logger/*/env_logger/#enabling-logging
-
 
 ### Include timestamp in log messages
 
@@ -359,7 +354,7 @@ log4rs = "1.3.0"
 external YAML file or a builder configuration.
 
 Create the log configuration with [`log4rs::append::file::FileAppender`]. An
-appender defines the logging destination.  The configuration continues with
+appender defines the logging destination. The configuration continues with
 encoding using a custom pattern from [`log4rs::encode::pattern`].
 Assigns the configuration to [`log4rs::config::Config`] and sets the default
 [`log::LevelFilter`].
@@ -390,7 +385,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 [`log4rs::append::file::FileAppender`]: https://docs.rs/log4rs/*/log4rs/append/file/struct.FileAppender.html
-[`log4rs::config::Config`]: https://docs.rs/log4rs/*/log4rs/config/struct.Config.html
 [`log4rs::encode::pattern`]: https://docs.rs/log4rs/*/log4rs/encode/pattern/index.html
 [`log::LevelFilter`]: https://docs.rs/log/*/log/enum.LevelFilter.html
 
@@ -436,6 +430,7 @@ async fn perform_task(name: &str) {
 ```
 
 In this example:
+
 - The `#[instrument]` attribute automatically generates structured logs, capturing input arguments and other context.
 - `tracing_subscriber::fmt::init()` sets up a subscriber that logs to stdout.
 
@@ -470,7 +465,6 @@ allowing tracing to display structured logs showing which async tasks executed a
 
 You can also capture return values in async functions by setting ret to true.
 This is useful for debugging functions that return futures:
-
 
 ```rust
 #[tokio::main]
