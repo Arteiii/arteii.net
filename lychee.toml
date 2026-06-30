@@ -8,6 +8,7 @@ exclude = [
     'http://localhost',
 
     '/resume'
+    'ben_pilger.vcf'
 ]
 
 
