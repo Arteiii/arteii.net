@@ -1,6 +1,6 @@
-    accept = [200, 403, 999]
+accept = [200, 403, 999]
 
-    exclude = [
+exclude = [
     '%7B.*%7D',
     '\{.*\}',
 
@@ -8,11 +8,6 @@
     'http://localhost',
 
     '/resume'
-    ]
+]
 
-    remap = [
-        "^/icons/ /static/icons/",
-        "^/assets/ /static/assets/",
-        "/.well-known/ /static/.well-known/",
-        "/landing-page/ /static/landing-page/"
-    ]
+
