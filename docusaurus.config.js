@@ -18,9 +18,13 @@ const internetProfiles = {
     label: "GitHub",
     href: "https://github.com/Arteiii",
   },
-  keybase: {
-    label: "keybase",
-    href: "https://keybase.io/arteii",
+  // keybase: {
+  //   label: "keybase",
+  //   href: "https://keybase.io/arteii",
+  // },
+  resume: {
+    label: "Resume & CV",
+    to: "resume",
   },
   email: {
     label: "Email",
@@ -34,6 +38,10 @@ const internetProfiles = {
     label: "Documentation",
     to: "docs",
   },
+  rust: {
+    label: "Rust Cookbook",
+    to: "rust-cookbook",
+  },
 };
 
 module.exports = {
@@ -45,7 +53,7 @@ module.exports = {
   onBrokenAnchors: "throw",
   favicon: "img/favicon.ico",
   organizationName: "arteii",
-  projectName: "arteiii.github.io",
+  projectName: "arteii.net",
   trailingSlash: true,
 
   scripts: [
@@ -149,21 +157,22 @@ module.exports = {
         {
           title: "Connect",
           items: [
-            // internetProfiles.linkedin,
+            internetProfiles.linkedin,
             internetProfiles.github,
             internetProfiles.email,
-            internetProfiles.keybase,
           ],
         },
         {
           title: "Discover",
           items: [
             internetProfiles.blog,
-            internetProfiles.docs, // internetProfiles.resume,
+            internetProfiles.docs, 
+            internetProfiles.rust,
+            internetProfiles.resume,
           ],
         },
       ],
-      copyright: `Arteii • <a href="https://github.com/arteiii/arteiii.github.io/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
+      copyright: `Arteii • <a href="https://github.com/arteiii/arteii.net/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
     },
 
     algolia: {
@@ -204,7 +213,7 @@ module.exports = {
           editCurrentVersion: false,
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          editUrl: "https://github.com/arteiii/arteiii.github.io/tree/main/",
+          editUrl: "https://github.com/arteiii/arteii.net/tree/main/",
         },
         blog: {
           blogSidebarTitle: "Blog",
@@ -222,7 +231,7 @@ module.exports = {
               content,
               options: { wordsPerMinute: 300 },
             }),
-          editUrl: "https://github.com/arteiii/arteiii.github.io/tree/main/",
+          editUrl: "https://github.com/arteiii/arteii.net/tree/main/",
 
           feedOptions: {
             xslt: true,

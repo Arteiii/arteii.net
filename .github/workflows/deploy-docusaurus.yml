@@ -3,8 +3,6 @@ name: deploy-docusaurus
 on:
   push:
     branches: [main]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -14,24 +12,49 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out repo
         uses: actions/checkout@v6
 
-      # Set up Yarn instead of just Node.js (this uses Yarn's latest version)
+      - name: Compile LaTeX to PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            ./TEX/CV.tex
+            ./TEX/RESUME.tex
+
+      - name: Convert LaTeX to MD and HTML
+        run: |
+          sudo apt-get update && sudo apt-get install -y pandoc
+
+          pandoc ./TEX/CV.tex -t markdown -o CV.md
+          pandoc ./TEX/CV.tex -s -t html -o CV.html
+
+          pandoc ./TEX/RESUME.tex -t markdown -o RESUME.md
+          pandoc ./TEX/RESUME.tex -s -t html -o RESUME.html
+
+      - name: Move artifacts to Docusaurus folders
+        run: |
+          mkdir -p static/download
+
+          cp CV.pdf static/download/CV.pdf
+          cp CV.html static/download/CV.html
+          cp CV.md static/download/CV.md
+
+          cp RESUME.pdf static/download/RESUME.pdf
+          cp RESUME.html static/download/RESUME.html
+          cp RESUME.md static/download/RESUME.md
+
       - name: Set up Yarn
         uses: actions/setup-node@v6
         with:
           node-version: 24
-          cache: "yarn" # Enable caching for yarn dependencies
+          cache: "yarn"
 
-      # Install dependencies and build the Docusaurus website
       - name: Install dependencies and build
         run: |
           yarn install --frozen-lockfile
           yarn build
 
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         if: success()
         uses: peaceiris/actions-gh-pages@v4
