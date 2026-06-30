@@ -7,11 +7,13 @@ exclude = [
   'http://127.0.0.1:8000',
   'http://localhost',
 
-  '^/resume$'
+  '/resume'
 ]
 
 remap = [
     "^/ static/", 
-    "^/home/runner/work/arteii.net/arteii.net/ /home/runner/work/arteii.net/arteii.net/static/",
-    "^/home/runner/work/arteii.net/arteii.net/icons/ /home/runner/work/arteii.net/arteii.net/static/assets/icons/"
+    "^/icons/* /static/icons/"
+    "^/assets/* /static/assets/"
+    "^/.well-known/* /static/.well-known/"
+    "^/landing-page/* /static/landing-page/"
 ]
