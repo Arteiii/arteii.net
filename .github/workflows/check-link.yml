@@ -31,6 +31,13 @@ jobs:
           key: cache-lychee-${{ github.sha }}
           restore-keys: cache-lychee-
 
+      - name: Create symlinks for Lychee
+        run: |
+          ln -s static/assets/icons ./icons
+          ln -s static/assets ./assets
+          ln -s static/.well-known ./.well-known
+          ln -s static/landing-page ./landing-page
+
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2
@@ -38,10 +45,6 @@ jobs:
           fail: true
           args: >
             --root-dir "./" 
-            --remap "^/icons/ static/assets/icons/"
-            --remap "^/assets/ static/assets/"
-            --remap "^/.well-known/ static/.well-known/"
-            --remap "^/landing-page/ static/landing-page/"
             --cache 
             --max-cache-age 1d 
             .
