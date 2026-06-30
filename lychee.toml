@@ -10,4 +10,8 @@ exclude = [
   '^/resume$'
 ]
 
-remap = ["^/home/runner/work/arteii.net/arteii.net/ /home/runner/work/arteii.net/arteii.net/static/"]
+remap = [
+    "^/ static/", 
+    "^/home/runner/work/arteii.net/arteii.net/ /home/runner/work/arteii.net/arteii.net/static/",
+    "^/home/runner/work/arteii.net/arteii.net/icons/ /home/runner/work/arteii.net/arteii.net/static/assets/icons/"
+]
