@@ -10,5 +10,4 @@ exclude = [
   '^/resume$'
 ]
 
-[remap]
-"^/" = "static/"
+remap = ["^/ static/"]
