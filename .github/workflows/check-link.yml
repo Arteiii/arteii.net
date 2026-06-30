@@ -33,7 +33,7 @@ jobs:
 
       - name: Create symlinks for Lychee
         run: |
-          ln -s "$GITHUB_WORKSPACE/static/assets/icons" ./icons
+          ln -s "$GITHUB_WORKSPACE/static/icons" ./icons
           ln -s "$GITHUB_WORKSPACE/static/assets" ./assets
           ln -s "$GITHUB_WORKSPACE/static/.well-known" ./.well-known
           ln -s "$GITHUB_WORKSPACE/static/landing-page" ./landing-page
