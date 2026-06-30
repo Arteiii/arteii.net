@@ -15,14 +15,19 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v6
 
+      - name: Compile LaTeX to PDF via XeLaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: ./TEX
+          root_file: |
+            CV.tex
+            RESUME.tex
+          compiler: xelatex
+          pre_compile: apk add font-jetbrains-mono
+
       - name: Convert LaTeX to PDF, MD and HTML
         run: |
-          sudo apt-get update && sudo apt-get install -y \
-            pandoc \
-            texlive-xetex \
-            texlive-latex-extra \
-            texlive-fonts-extra \
-            fonts-jetbrains-mono
+          sudo apt-get update && sudo apt-get install -y pandoc
 
           pandoc ./TEX/CV.tex --pdf-engine=xelatex -o CV.pdf
           pandoc ./TEX/CV.tex -t markdown -o CV.md
@@ -36,11 +41,11 @@ jobs:
         run: |
           mkdir -p static/download
 
-          cp CV.pdf static/download/CV.pdf
+          cp ./TEX/CV.pdf static/download/CV.pdf
           cp CV.html static/download/CV.html
           cp CV.md static/download/CV.md
 
-          cp RESUME.pdf static/download/RESUME.pdf
+          cp ./TEX/RESUME.pdf static/download/RESUME.pdf
           cp RESUME.html static/download/RESUME.html
           cp RESUME.md static/download/RESUME.md
 
