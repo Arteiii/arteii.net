@@ -24,7 +24,7 @@ const internetProfiles = {
   // },
   vcard: {
     label: "Save Contact (vCard)",
-    to: "download/ben_pilger.vcf"
+    href: "download/ben_pilger.vcf"
   },
   resume: {
     label: "Resume & CV",

@@ -35,6 +35,7 @@ jobs:
         run: |
           ln -s "$GITHUB_WORKSPACE/static/icons" ./icons
           ln -s "$GITHUB_WORKSPACE/static/assets" ./assets
+          ln -s "$GITHUB_WORKSPACE/static/download" ./download
           ln -s "$GITHUB_WORKSPACE/static/.well-known" ./.well-known
           ln -s "$GITHUB_WORKSPACE/static/landing-page" ./landing-page
 
