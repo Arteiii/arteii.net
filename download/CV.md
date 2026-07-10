@@ -26,20 +26,7 @@ Systems & Security Engineer  IT Trainer\
 # Professional Experience
 
 *Stuttgart, Germany*\
-*Independent Consultant & Technical Trainer* /2026 -- Present
-
--   **Systems Engineering Consultancy:** Provide freelance research,
-    architectural auditing, and development services specializing in
-    backend scalability, high-concurrency tooling, and security
-    hardening.
-
--   **Infrastructure Hosting:** Provision and manage secure,
-    high-availability web hosting environments and custom deployment
-    pipelines for local small-to-medium businesses (SMBs) on an ongoing
-    basis.
-
-*Stuttgart, Germany*\
-*Backend Engineer* /2025 -- 06/2026
+*Backend Engineer - Solutions Engineering* /2025 -- 09/2026
 
 -   **Decentralized PAM Architecture:** Pioneered a novel Privileged
     Access Management (PAM) infrastructure by conceptualising a
@@ -64,7 +51,7 @@ Systems & Security Engineer  IT Trainer\
     of scalable IAM and fraud mitigation services.
 
 *Stuttgart, Germany*\
-*Systems & Security Engineer* -- 2025
+*Systems & Security Engineer* /2024 -- 03/2025
 
 -   **Low-Level Kernel Engineering:** Developed system-level drivers and
     modules interacting with the Windows kernel using Rust and C++.
@@ -76,7 +63,7 @@ Systems & Security Engineer  IT Trainer\
     payment gateways and automated client software lifecycle deployment.
 
 *Global*\
-*Founder & Lead of Research and Development* /2024 -- Present
+*Co-Founder & Research and Development* /2024 -- Ongoing
 
 -   **Open-Source R&D Leadership:** Established an open-source research
     group focusing on low-level systems programming, secure system
@@ -94,46 +81,28 @@ Systems & Security Engineer  IT Trainer\
     mitigations.
 
 *Remote*\
-*Offensive Tooling & Compatibility Engineering* -- 2023
+*Offensive Tooling & Compatibility Engineering* /2023 -- 08/2024
 
--   **Reverse Engineering & Integrity Bypasses:** Analyzed complex
-    security mechanisms and runtime protections using IDA Pro and WinDbg
-    to evaluate functional software integrity and binary execution
-    flows.
+-   **Mass Deployment & Compatibility (05/2024 - 08/2024):** Deployed
+    and maintained custom software for a global user base, ensuring
+    continuous runtime stability across hundreds of volatile Windows OS
+    builds and custom hardware environments.
 
--   **Aviation Infrastructure Utilities:** Engineered a custom suite of
-    infrastructure utilities and configuration verification tools
-    (including [uptimeMon](https://github.com/Arteiii/uptimeMon))
-    designed to validate environment states and ensure high
-    availability.
+-   **Mission-Critical Infrastructure Utilities (12/2023 - 04/2024):**
+    Engineered a custom suite of infrastructure health utilities and
+    configuration verification tools designed to validate environment
+    states and ensure maximum availability in high-security, sensitive
+    deployment environments.
 
--   **Mass Deployment & Compatibility:** Deployed and maintained custom
-    software for a global user base, ensuring continuous runtime
-    stability across hundreds of volatile Windows OS builds and custom
-    hardware environments.
-
-# Side Projects & Community
-
-*Stuttgart, Germany*\
-*Co-Organizer & Creative Coordinator* -- Present
-
--   **Talent Booking & Management:** Handled independent artist
-    management, contractual bookings, and oversaw compliance with
-    complex technical and hospitality riders.
-
--   **Event Safety & Awareness:** Managed active awareness team
-    operations during cultural club events, focusing on guest
-    well-being, safe environments, and proactive conflict de-escalation.
-
--   **Creative Production & Hospitality:** Planned and executed
-    promotional photoshoots for artists, coordinated private post-event
-    networking hospitality, and executed independent editorial modeling
-    assignments.
+-   **Reverse Engineering & Integrity Bypasses (03/2023 - 11/2023):**
+    Analyzed complex security mechanisms and runtime protections using
+    IDA Pro and WinDbg to evaluate functional software integrity and
+    binary execution flows.
 
 # Research & Open Source Projects
 
 *[arteii.net](https://arteii.net)*\
-*Technical Author* Ongoing
+*Technical Author* /2023 -- Ongoing
 
 -   **Windows Kernel Security Research:** Published low-level technical
     documentation and analysis covering Ring-0 driver architecture,
