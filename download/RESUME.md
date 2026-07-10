@@ -20,12 +20,11 @@ massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
 
 # Core Expertise
 
--   **Languages:** Rust, C++, C, Erlang, TypeScript, x86-64 Assembly,
-    Python, SQL
+-   **Languages:** Rust, C++, C, x86-64 Assembly, Python
 
--   **Systems & Security:** Windows Kernel Dev, Kernel Debugging
-    (WinDbg), Reverse Engineering (IDA Pro, Ghidra), PKI, Custom
-    Cryptographic Protocols, PAM/IAM Architecture
+-   **Systems & Security:** Zero-Trust Architecture, PAM, IAM,
+    Cryptography, PKI, Reverse Engineering (IDA Pro, Ghidra), Kernel
+    Development, Debugging & OS Internals (Windows/Linux)
 
 -   **Infrastructure:** Tokio, Actix, gRPC, REST, TCP/IP, TLS, AWS,
     Cloudflare, Docker, CI/CD
@@ -33,10 +32,22 @@ massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
 # Professional Experience
 
 *Stuttgart, Germany*\
-*Backend Engineer - Solutions Engineering* /2025 -- 09/2026
+*Independent Consultant & Technical Trainer* /2026 -- Ongoing
 
--   **Zero-Trust PAM Architecture:** Pioneered a novel Privileged Access
-    Management solution, conceptualizing an asymmetric key-based
+-   **Systems Engineering Consultancy:** Provide specialized research,
+    architectural auditing, and low-level development in Rust, C++, and
+    Assembly, focusing on high-concurrency tooling and security
+    hardening.
+
+-   **Trainer:** Available for corporate seminars covering low-level
+    kernel programming (Windows/Linux), networking (TCP/IP), and complex
+    Rust FFI integrations.
+
+*Stuttgart, Germany*\
+*Backend Engineer -- Solutions Engineering* /2025 -- 09/2026
+
+-   **Decentralized PAM Architecture:** Pioneered a novel Privileged
+    Access Management solution, conceptualizing an asymmetric key-based
     configuration protocol and a decentralized PKI-service to eliminate
     single points of failure.
 
@@ -55,17 +66,6 @@ massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
 -   **Licensing Platforms:** Architected and deployed scalable user,
     sales, and license management infrastructures with automated
     software lifecycle installers and international payment gateways.
-
-*Global*\
-*Co-Founder & Research and Development* /2024 -- Present
-
--   **Low-Level R&D:** Established an open-source research group focused
-    on low-level systems programming, secure system design, and advanced
-    architectural analysis.
-
--   **Security Publications:** Oversee development of open-source
-    security tools and publish deep-dive documentation on kernel-level
-    security and hardware-assisted mitigations.
 
 *Remote*\
 *Offensive Tooling & Compatibility Engineering* /2023 -- 08/2024

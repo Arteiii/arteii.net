@@ -9,13 +9,12 @@ Systems & Security Engineer  IT Trainer\
 
 # Core Competencies
 
--   **Languages:** Rust, C++, C, Erlang, TypeScript, x86-64 Assembly,
-    Python, SQL
+-   **Languages:** Rust, C++, C, x86-64 Assembly, Python
 
--   **Domains:** Zero-Trust Architecture, Privileged Access Management
-    (PAM), IAM, Cryptography, PKI,\
-    Windows Internals, Kernel Debugging & Development (Rust/C++),
-    Systems Security, Reverse Engineering
+-   **Domains:** Zero-Trust Architecture, PAM, IAM, Cryptography, PKI,
+    Systems Security,\
+    Reverse Engineering, Kernel Development, Debugging & OS Internals
+    (Windows/Linux)
 
 -   **Frameworks & Networking:** Tokio, Actix, gRPC, REST, TCP/IP, TLS,
     AWS, Cloudflare
@@ -26,7 +25,19 @@ Systems & Security Engineer  IT Trainer\
 # Professional Experience
 
 *Stuttgart, Germany*\
-*Backend Engineer - Solutions Engineering* /2025 -- 09/2026
+*Independent Consultant & Technical Trainer* /2026 -- Ongoing
+
+-   **Systems Engineering Consultancy:** Provide specialized research,
+    architectural auditing, and low-level development in Rust, C++, and
+    Assembly, focusing on high-concurrency tooling and security
+    hardening.
+
+-   **Trainer:** Available for corporate seminars covering low-level
+    kernel programming (Windows/Linux), networking (TCP/IP), and complex
+    Rust FFI integrations.
+
+*Stuttgart, Germany*\
+*Backend Engineer -- Solutions Engineering* /2025 -- 09/2026
 
 -   **Decentralized PAM Architecture:** Pioneered a novel Privileged
     Access Management (PAM) infrastructure by conceptualising a
@@ -63,22 +74,13 @@ Systems & Security Engineer  IT Trainer\
     payment gateways and automated client software lifecycle deployment.
 
 *Global*\
-*Co-Founder & Research and Development* /2024 -- Ongoing
-
--   **Open-Source R&D Leadership:** Established an open-source research
-    group focusing on low-level systems programming, secure system
-    design, and advanced architectural analysis.
+*Research* /2024 -- Ongoing
 
 -   **Threat Emulation Framework:** Architected and engineered an
     advanced network resilience and threat emulation platform
     (\"[Actrax](https://github.com/Arteiii/Actrax)\") in Rust and C++ to
     evaluate detection engineering capabilities and endpoint defense
     mechanisms.
-
--   **Security Research & Publication:** Oversee the lifecycle of
-    open-source security tools and publish in-depth technical
-    documentation covering kernel-level security and hardware-assisted
-    mitigations.
 
 *Remote*\
 *Offensive Tooling & Compatibility Engineering* /2023 -- 08/2024
@@ -98,6 +100,32 @@ Systems & Security Engineer  IT Trainer\
     Analyzed complex security mechanisms and runtime protections using
     IDA Pro and WinDbg to evaluate functional software integrity and
     binary execution flows.
+
+# Technical Training
+
+*Stuttgart, Germany*\
+*Specialized Technical Curriculum Delivery* /2026 -- Ongoing
+
+-   **Networking & Protocol Seminars:** Deliver comprehensive training
+    tracks covering **Foundational Networking & TCP/IP** for beginners,
+    extending up to deep-dive **Advanced TCP/IP Stack Analysis** and
+    specialized enterprise network infrastructure seminars.
+
+-   **Windows Operating System Internals:** Conduct deep-dive courses
+    spanning **Windows System Programming**, core **Windows Internals**
+    architectures, and premium developer tracks covering **Windows
+    Kernel Programming** and driver development.
+
+-   **Linux Engineering & Architecture:** Teach comprehensive modules on
+    **Linux System Programming** and **Linux Internals** (including
+    Enterprise Linux environments like RHEL), scaling into specialized
+    **Linux Kernel Programming** and kernel-mode module development.
+
+-   **Cybersecurity & Offensive Seminars:** Lead high-impact security
+    workshops covering **Network Security**, **Web Application
+    Security**, and high-ticket technical tracks focusing on **Malware
+    Analysis**, binary executable exploration, and advanced **Reverse
+    Engineering**.
 
 # Research & Open Source Projects
 
