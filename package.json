@@ -22,7 +22,7 @@
     "@fluentui/react-icons": "2.0.328",
     "@mdx-js/react": "^3.1.1",
     "@svgr/webpack": "^8.1.0",
-    "autoprefixer": "^10.4.17",
+    "autoprefixer": "^10.5.2",
     "clsx": "^2.0.0",
     "fast-uri": "3.1.2",
     "postcss": "8.5.15",
