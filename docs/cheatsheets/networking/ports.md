@@ -57,12 +57,12 @@ lsof -i
 
 Manage Netfilter firewall rules.  
 [Documentation](https://netfilter.org/documentation/)  
-[IptablesHowTo](https://help.ubuntu.com/community/IptablesHowTo)
+[iptables (ArchWiki)](https://wiki.archlinux.org/title/Iptables)
 
 ### ufw (Uncomplicated Firewall)
 
 User-friendly frontend for iptables.  
-[Documentation](https://help.ubuntu.com/community/UFW)
+[Documentation](https://documentation.ubuntu.com/server/how-to/security/firewalls/)
 
 ```bash
 ufw allow 22/tcp
