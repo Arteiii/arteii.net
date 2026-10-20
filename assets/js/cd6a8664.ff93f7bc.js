@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarteiii_github_io||=[]).push([[9465],{8658(o){o.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"rust-cookbook"}')}}]);

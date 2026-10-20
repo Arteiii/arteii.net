@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarteiii_github_io||=[]).push([[9647],{7121(e,r,s){s.r(r),s.d(r,{default:()=>l});s(6540);var i=s(4164),a=s(7559),t=s(5500),u=s(2831),c=s(1732),h=s(4848);function l(e){return(0,h.jsx)(t.e3,{className:(0,i.A)(a.G.wrapper.docsPages),children:(0,h.jsx)(c.A,{children:(0,u.v)(e.route.routes)})})}}}]);

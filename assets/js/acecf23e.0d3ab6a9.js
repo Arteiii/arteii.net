@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarteiii_github_io||=[]).push([[1903],{1912(t){t.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"blog!","authorsListPath":"/blog/authors"}')}}]);
