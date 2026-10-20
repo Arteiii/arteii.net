@@ -26,9 +26,9 @@ export default function ResumeHub() {
         </header>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-          <div className="flex flex-col justify-between rounded-lg border-2 border-text-400/10 p-6 bg-background-surface dark:border-text-400/20">
+          <div className="flex flex-col justify-between rounded-lg p-6 bg-background-surface">
             <div>
-              <h3 className="mb-2 font-bold text-lg text-black dark:text-white border-b border-text-400/10 pb-2">
+              <h3 className="mb-2 font-bold text-lg text-black dark:text-white pb-2">
                 Curriculum Vitae
               </h3>
             </div>
@@ -43,23 +43,23 @@ export default function ResumeHub() {
               <a
                 href="/download/CV.html"
                 download
-                className="flex items-center justify-center gap-2 rounded-lg border-2 border-text-400/20 py-2 px-4 font-semibold text-text-400 transition-colors hover:border-primary hover:text-primary no-underline"
+                className="flex items-center justify-center gap-2 rounded-lg py-2 px-4 font-semibold text-text-400 transition-colors hover:text-primary no-underline"
               >
                 <OpenRegular className="h-4 w-4" /> HTML Format
               </a>
               <a
                 href="/download/CV.md"
                 download
-                className="flex items-center justify-center gap-2 rounded-lg border-2 border-text-400/20 py-2 px-4 font-semibold text-text-400 transition-colors hover:border-primary hover:text-primary no-underline"
+                className="flex items-center justify-center gap-2 rounded-lg py-2 px-4 font-semibold text-text-400 transition-colors hover:text-primary no-underline"
               >
                 <DocumentRegular className="h-4 w-4" /> Markdown Format
               </a>
             </div>
           </div>
 
-          <div className="flex flex-col justify-between rounded-lg border-2 border-text-400/10 p-6 bg-background-surface dark:border-text-400/20">
+          <div className="flex flex-col justify-between rounded-lg p-6 bg-background-surface">
             <div>
-              <h3 className="mb-2 font-bold text-lg text-black dark:text-white border-b border-text-400/10 pb-2">
+              <h3 className="mb-2 font-bold text-lg text-black dark:text-white pb-2">
                 Resume
               </h3>
             </div>
@@ -74,14 +74,14 @@ export default function ResumeHub() {
               <a
                 href="/download/RESUME.html"
                 download
-                className="flex items-center justify-center gap-2 rounded-lg border-2 border-text-400/20 py-2 px-4 font-semibold text-text-400 transition-colors hover:border-primary hover:text-primary no-underline"
+                className="flex items-center justify-center gap-2 rounded-lg py-2 px-4 font-semibold text-text-400 transition-colors hover:text-primary no-underline"
               >
                 <OpenRegular className="h-4 w-4" /> HTML Format
               </a>
               <a
                 href="/download/RESUME.md"
                 download
-                className="flex items-center justify-center gap-2 rounded-lg border-2 border-text-400/20 py-2 px-4 font-semibold text-text-400 transition-colors hover:border-primary hover:text-primary no-underline"
+                className="flex items-center justify-center gap-2 rounded-lg py-2 px-4 font-semibold text-text-400 transition-colors hover:text-primary no-underline"
               >
                 <DocumentRegular className="h-4 w-4" /> Markdown Format
               </a>

@@ -105,7 +105,7 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row items-center gap-6">
           <Link
             to="/docs"
-            className="rounded-lg bg-primary py-2 px-6 text-sm font-semibold tracking-wide text-white transition-all hover:bg-primary/90 hover:scale-[1.02] hover:text-white active:scale-[0.98] no-underline shadow-sm"
+            className="rounded-lg bg-primary py-2 px-6 text-sm font-semibold tracking-wide text-white transition-all hover:bg-primary/90 hover:scale-[1.02] hover:text-white active:scale-[0.98] no-underline shadow-xs"
           >
             Explore Docs
           </Link>
