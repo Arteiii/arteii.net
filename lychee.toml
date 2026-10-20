@@ -8,7 +8,10 @@ exclude = [
     'http://localhost',
 
     '/resume',
-    'ben_pilger.vcf'
+    'ben_pilger.vcf',
+
+    # Amazon blocks automated requests (503)
+    '^https://(www\.)?amazon\.com/'
 ]
 
 
