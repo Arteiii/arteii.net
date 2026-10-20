@@ -24,8 +24,8 @@
     "@svgr/webpack": "^8.1.0",
     "autoprefixer": "^10.6.1",
     "clsx": "^2.0.0",
-    "fast-uri": "4.0.0",
-    "postcss": "8.5.30",
+    "fast-uri": "4.1.5",
+    "postcss": "8.5.31",
     "prism-react-renderer": "^2.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -34,7 +34,7 @@
     "react-text-transition": "^3.1.0",
     "rehype-katex": "^7.0.0",
     "remark-math": "^6.0.0",
-    "svgo": "^4.0.1",
+    "svgo": "^4.1.0",
     "tailwindcss": "^3.4.1"
   },
   "resolutions": {
