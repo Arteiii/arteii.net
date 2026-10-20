@@ -78,7 +78,7 @@ function Guide({title, text, icon: Icon, link}: (typeof guides)[0]) {
     return (
         <Link
             to={link}
-            className="group flex cursor-pointer items-start gap-2 rounded-lg border-2 border-transparent p-3 text-inherit transition-colors hover:border-primary hover:text-primary"
+            className="group flex cursor-pointer items-start gap-2 rounded-lg p-3 text-inherit transition-colors hover:text-primary"
         >
             <Icon className="h-6 w-6" aria-label={`${title} icon`}/>
 
@@ -105,7 +105,7 @@ export function Sample({
                        }: Sample) {
     return (
         <div
-            className="group flex cursor-pointer items-center justify-between rounded-lg border-2 border-transparent p-3 text-text-400/60 transition-colors hover:border-primary hover:text-primary">
+            className="group flex cursor-pointer items-center justify-between rounded-lg p-3 text-text-400/60 transition-colors hover:text-primary">
             <div className="flex flex-col">
                 <h4 className="mb-1 text-black group-hover:text-primary dark:text-white">
                     {title}
