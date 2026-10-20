@@ -11,7 +11,10 @@ exclude = [
     'ben_pilger.vcf',
 
     # Amazon blocks automated requests (503)
-    '^https://(www\.)?amazon\.com/'
+    '^https://(www\.)?amazon\.com/',
+
+    # Wayback Machine snapshots are stable but rate-limited (503)
+    '^https://web\.archive\.org/'
 ]
 
 
