@@ -39,7 +39,7 @@ jobs:
           EOF
 
       - name: Compile LaTeX to PDF via XeLaTeX
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           working_directory: ./TEX
           root_file: |
