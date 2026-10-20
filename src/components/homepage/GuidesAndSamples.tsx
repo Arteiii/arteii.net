@@ -163,7 +163,7 @@ export function GuidesAndSamples() {
 
             <div
                 className={clsx(
-                    "mx-8 block flex-shrink-0 bg-gradient-to-b from-transparent via-secondary-700 to-transparent",
+                    "mx-8 block shrink-0 bg-linear-to-b from-transparent via-secondary-700 to-transparent",
                     "hidden w-px md:block"
                 )}
             />
