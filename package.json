@@ -24,7 +24,7 @@
     "@svgr/webpack": "^8.1.0",
     "@tailwindcss/postcss": "^4.3.3",
     "clsx": "^2.0.0",
-    "postcss": "^8.5.31",
+    "postcss": "^8.5.32",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
