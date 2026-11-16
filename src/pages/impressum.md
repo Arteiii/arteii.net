@@ -17,6 +17,11 @@ Deutschland
 E-Mail: [ben.pilger@arteii.net](mailto:ben.pilger@arteii.net)<br />
 Telefon: +49 160 98641438
 
+## Umsatzsteuer-ID
+
+Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
+DE463828830
+
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
 Ben Pilger<br />
