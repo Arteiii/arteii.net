@@ -176,6 +176,15 @@ module.exports = {
             internetProfiles.resume,
           ],
         },
+        {
+          title: "Legal",
+          items: [
+            {
+              label: "Impressum",
+              to: "impressum",
+            },
+          ],
+        },
       ],
       copyright: `Arteii • <a href="https://github.com/arteiii/arteii.net/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
     },
@@ -258,10 +267,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        gtag: {
-          trackingID: "G-7Z0ZVNLZ6V",
-          anonymizeIP: true,
         },
       },
     ],
