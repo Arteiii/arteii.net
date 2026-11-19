@@ -60,6 +60,10 @@
     img {
       max-width: 100%;
     }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
     h1, h2, h3, h4, h5, h6 {
       margin-top: 1.4em;
     }
@@ -103,8 +107,8 @@
      overflow: visible;
     }
     hr {
-      background-color: #1a1a1a;
       border: none;
+      border-top: 1px solid #1a1a1a;
       height: 1px;
       margin: 1em 0;
     }
@@ -169,10 +173,11 @@
 <h1 class="title">Curriculum Vitae</h1>
 </header>
 <div class="center">
-<p><span> <strong>Ben Pilger</strong></span><br />
-<span>Systems &amp; Security Engineer  IT Trainer</span><br />
- Stuttgart, Germany  +49 160 98641438  <a
-href="mailto:ben.pilger@arteii.net">ben.pilger@arteii.net</a><br />
+<p><span> <strong>Ben Braun</strong></span><br />
+<span>Systems &amp; Security Engineer  IT Trainer  Founder of
+otoya</span><br />
+ Dreieich, Germany  +49 160 98641438  <a
+href="mailto:bbraun@arteii.net">bbraun@arteii.net</a><br />
  <a href="https://arteii.net">arteii.net</a>  <a
 href="https://github.com/arteiii">github.com/arteiii</a>  <a
 href="https://linkedin.com/in/ben-pilger">linkedin.com/in/ben-pilger</a></p>
@@ -189,10 +194,25 @@ Reverse Engineering, Kernel Development, Debugging &amp; OS Internals
 REST, TCP/IP, TLS, AWS, Cloudflare</p></li>
 <li><p><strong>Tooling:</strong> x64dbg, IDA Pro, Ghidra, WinDbg, WDK,
 CMake, Visual Studio, Docker, CI/CD</p></li>
+<li><p><strong>Product &amp; Hardware:</strong> product design, CAD and
+production-ready models, cost planning, supplier sourcing</p></li>
 </ul>
 <h1 id="professional-experience">Professional Experience</h1>
-<p><em>Stuttgart, Germany</em><br />
-<em>Independent Consultant &amp; Technical Trainer</em> /2026 –
+<p><em>Dreieich, Germany</em><br />
+<em>Founder</em> 10/2026 – Ongoing</p>
+<ul>
+<li><p><strong>Design-led Audio Hardware:</strong> Building a design-led
+audio brand around two flagship devices: the h1 loudspeaker series and
+the s1 network streamer.</p></li>
+<li><p><strong>Software Platform:</strong> Built the complete software
+platform (music server, player, web UI, device UI, app), released as
+version 1.0.0 in 10/2026.</p></li>
+<li><p><strong>Product Development:</strong> Product design, CAD and
+production-ready models, prototyping, cost planning and supplier
+sourcing.</p></li>
+</ul>
+<p><em>Germany</em><br />
+<em>Independent Consultant &amp; Technical Trainer</em> 07/2026 –
 Ongoing</p>
 <ul>
 <li><p><strong>Systems Engineering Consultancy:</strong> Provide
@@ -204,7 +224,7 @@ covering low-level kernel programming (Windows/Linux), networking
 (TCP/IP), and complex Rust FFI integrations.</p></li>
 </ul>
 <p><em>Stuttgart, Germany</em><br />
-<em>Backend Engineer – Solutions Engineering</em> /2025 – 09/2026</p>
+<em>Backend Engineer – Solutions Engineering</em> 04/2025 – 09/2026</p>
 <ul>
 <li><p><strong>Decentralized PAM Architecture:</strong> Pioneered a
 novel Privileged Access Management (PAM) infrastructure by
@@ -218,15 +238,16 @@ and tamper-proof state synchronization.</p></li>
 <li><p><strong>System Modernization &amp; Stability:</strong>
 Contributed to the migration of legacy C++, Erlang, and TypeScript
 services to a high-performance Rust-based microservice architecture,
-optimizing for high-concurrency environments (&gt;200K RPS) and strict
-sub-100ms latency guarantees.</p></li>
+optimizing for high-concurrency environments (<span
+class="math inline">&gt;</span>200K RPS) and strict sub-100ms latency
+guarantees.</p></li>
 <li><p><strong>Enterprise Product Leadership:</strong> Acted as a
 technical lead for complex enterprise requirements, managing the full
 lifecycle from requirement engineering and protocol specification to the
 delivery of scalable IAM and fraud mitigation services.</p></li>
 </ul>
 <p><em>Stuttgart, Germany</em><br />
-<em>Systems &amp; Security Engineer</em> /2024 – 03/2025</p>
+<em>Systems &amp; Security Engineer</em> 11/2024 – 03/2025</p>
 <ul>
 <li><p><strong>Low-Level Kernel Engineering:</strong> Developed
 system-level drivers and modules interacting with the Windows kernel
@@ -238,16 +259,21 @@ integrated international payment gateways and automated client software
 lifecycle deployment.</p></li>
 </ul>
 <p><em>Global</em><br />
-<em>Research</em> /2024 – Ongoing</p>
+<em>Research</em> 09/2024 – Ongoing</p>
 <ul>
 <li><p><strong>Threat Emulation Framework:</strong> Architected and
 engineered an advanced network resilience and threat emulation platform
-("<a href="https://github.com/Arteiii/Actrax">Actrax</a>") in Rust and
+(“<a href="https://github.com/Arteiii/Actrax">Actrax</a>”) in Rust and
 C++ to evaluate detection engineering capabilities and endpoint defense
 mechanisms.</p></li>
+<li><p><a
+href="https://github.com/Sparx-Foundation/KEYED-HWID"><strong>KEYED-HWID:</strong></a>
+Privacy-preserving hardware ID library for Rust: keyed per-component
+hashes with fuzzy matching, so a device stays recognised after a disk or
+NIC swap.</p></li>
 </ul>
 <p><em>Remote</em><br />
-<em>Offensive Tooling &amp; Compatibility Engineering</em> /2023 –
+<em>Security Research &amp; Compatibility Engineering</em> 03/2023 –
 08/2024</p>
 <ul>
 <li><p><strong>Mass Deployment &amp; Compatibility (05/2024 -
@@ -259,14 +285,14 @@ volatile Windows OS builds and custom hardware environments.</p></li>
 utilities and configuration verification tools designed to validate
 environment states and ensure maximum availability in high-security,
 sensitive deployment environments.</p></li>
-<li><p><strong>Reverse Engineering &amp; Integrity Bypasses (03/2023 -
+<li><p><strong>Reverse Engineering &amp; Security Analysis (03/2023 -
 11/2023):</strong> Analyzed complex security mechanisms and runtime
 protections using IDA Pro and WinDbg to evaluate functional software
 integrity and binary execution flows.</p></li>
 </ul>
 <h1 id="technical-training">Technical Training</h1>
-<p><em>Stuttgart, Germany</em><br />
-<em>Specialized Technical Curriculum Delivery</em> /2026 – Ongoing</p>
+<p><em>Germany</em><br />
+<em>Specialized Technical Curriculum Delivery</em> 07/2026 – Ongoing</p>
 <ul>
 <li><p><strong>Networking &amp; Protocol Seminars:</strong> Deliver
 comprehensive training tracks covering <strong>Foundational Networking
@@ -283,17 +309,26 @@ comprehensive modules on <strong>Linux System Programming</strong> and
 <strong>Linux Internals</strong> (including Enterprise Linux
 environments like RHEL), scaling into specialized <strong>Linux Kernel
 Programming</strong> and kernel-mode module development.</p></li>
-<li><p><strong>Cybersecurity &amp; Offensive Seminars:</strong> Lead
-high-impact security workshops covering <strong>Network
-Security</strong>, <strong>Web Application Security</strong>, and
-high-ticket technical tracks focusing on <strong>Malware
-Analysis</strong>, binary executable exploration, and advanced
-<strong>Reverse Engineering</strong>.</p></li>
+<li><p><strong>Cybersecurity Seminars:</strong> Lead security workshops
+covering <strong>Network Security</strong>, <strong>Web Application
+Security</strong>, <strong>Malware Analysis</strong>, binary executable
+exploration, and advanced <strong>Reverse Engineering</strong>.</p></li>
+</ul>
+<h1 id="music-industry">Music Industry</h1>
+<p><em>Germany</em><br />
+<em>Part-time, alongside engineering work</em></p>
+<ul>
+<li><p><strong>Club Nights:</strong> Organisation and production of club
+events.</p></li>
+<li><p><strong>Artist Management:</strong> Supporting artists alongside
+my engineering work.</p></li>
+<li><p><strong>Studio Sessions:</strong> Studio sessions with
+artists.</p></li>
 </ul>
 <h1 id="research-open-source-projects">Research &amp; Open Source
 Projects</h1>
 <p><em><a href="https://arteii.net">arteii.net</a></em><br />
-<em>Technical Author</em> /2023 – Ongoing</p>
+<em>Technical Author</em> 12/2023 – Ongoing</p>
 <ul>
 <li><p><strong>Windows Kernel Security Research:</strong> Published
 low-level technical documentation and analysis covering Ring-0 driver
@@ -306,6 +341,10 @@ conventions and machine-level instruction sets.</p></li>
 <p><strong>GitHub Ecosystem</strong> <em>Core Contributor &amp;
 Maintainer</em></p>
 <ul>
+<li><p><a
+href="https://github.com/otoya-studio/dsd-pcm"><strong>dsd-pcm:</strong></a>
+Open-source Rust library that decimates a 1-bit DSD stream to PCM with a
+cascade of linear-phase FIR filters in 64-bit floating point.</p></li>
 <li><p><a
 href="https://github.com/lycheeverse/lychee"><strong>lychee:</strong></a>
 Optimized engine performance and connection handling for the widely used
