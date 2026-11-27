@@ -24,7 +24,7 @@ const internetProfiles = {
   // },
   vcard: {
     label: "Save Contact (vCard)",
-    href: "https://arteii.net/download/ben_pilger.vcf"
+    href: "https://arteii.net/download/ben_braun.vcf"
   },
   resume: {
     label: "Resume & CV",
@@ -32,7 +32,7 @@ const internetProfiles = {
   },
   email: {
     label: "Email",
-    href: "mailto:ben.pilger@arteii.net",
+    href: "mailto:bbraun@arteii.net",
   },
   blog: {
     label: "Blog",
@@ -59,6 +59,45 @@ module.exports = {
   organizationName: "arteii",
   projectName: "arteii.net",
   trailingSlash: true,
+
+  headTags: [
+    {
+      tagName: "script",
+      attributes: { type: "application/ld+json" },
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://arteii.net/#person",
+            name: "Ben Braun",
+            alternateName: "Arteii",
+            url: "https://arteii.net/",
+            image: "https://arteii.net/img/arteii_avatar.jpg",
+            email: "mailto:bbraun@arteii.net",
+            jobTitle: "Systems & Security Engineer, IT Trainer",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Dreieich",
+              addressCountry: "DE",
+            },
+            sameAs: [
+              internetProfiles.github.href,
+              internetProfiles.linkedin.href,
+              "https://www.xing.com/profile/Ben_Pilger",
+            ],
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://arteii.net/#website",
+            url: "https://arteii.net/",
+            name: "Arteii",
+            author: { "@id": "https://arteii.net/#person" },
+          },
+        ],
+      }),
+    },
+  ],
 
   scripts: [
     {
@@ -176,6 +215,15 @@ module.exports = {
             internetProfiles.resume,
           ],
         },
+        {
+          title: "Legal",
+          items: [
+            {
+              label: "Impressum",
+              to: "impressum",
+            },
+          ],
+        },
       ],
       copyright: `Arteii • <a href="https://github.com/arteiii/arteii.net/commits/main">Updated ${new Date().toLocaleDateString()}</a>`,
     },
@@ -226,8 +274,9 @@ module.exports = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
 
-          blogTitle: "blog!",
-          blogDescription: "A Docusaurus powered blog!",
+          blogTitle: "Blog",
+          blogDescription:
+            "Articles by Ben Braun on systems programming, security, cryptography, Linux and Python.",
           postsPerPage: "ALL",
 
           showReadingTime: true,
@@ -258,10 +307,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        gtag: {
-          trackingID: "G-7Z0ZVNLZ6V",
-          anonymizeIP: true,
         },
       },
     ],

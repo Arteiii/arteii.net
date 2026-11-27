@@ -1,6 +1,8 @@
 ---
 id: axum
-title: axum
+title: "axum: Async Rust Web Framework for REST APIs"
+sidebar_label: axum
+description: "Introduction to axum, the ergonomic async Rust web framework built on Hyper and Tokio for building fast REST APIs and web applications."
 sidebar_position: 1
 ---
 

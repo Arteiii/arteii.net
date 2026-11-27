@@ -8,29 +8,19 @@ import ResourcesSection from "../components/homepage/ResourcesSection";
 export default function Homepage() {
   return (
     <Layout
-      description="A personal blog and documentation site. Linux, Windows, programming, kernel development, Python"
+      description="Ben Braun (Arteii): Systems & Security Engineer and IT trainer near Frankfurt. Blog, docs and cheat sheets on Rust, Windows internals, kernel development and Linux."
       wrapperClassName="homepage flex flex-col"
     >
       <Head>
-        <title>Arteii - not a web dev</title>
+        <title>Ben Braun (Arteii) – Systems & Security Engineer</title>
         <meta name="msvalidate.01" content="4BE0AB5A8B5736126C93DE177CA2EC2F" />
         <meta name="yandex-verification" content="13d1cc1868fe2de2" />
-        <meta property="og:title" content="Arteii - not a web dev" />
         <meta
-          property="og:description"
-          content="A personal blog and documentation site. Linux, Windows, programming, kernel development, Python"
+          property="og:title"
+          content="Ben Braun (Arteii) – Systems & Security Engineer"
         />
-        <meta
-          property="og:image"
-          content="https://arteii.net/img/Website-Social-Card.jpeg"
-        />
-        <meta
-          property="twitter:description"
-          content="A personal blog and documentation site. Linux, Windows, programming, kernel development, Python"
-        />
-        <meta property="og:url" content="https://arteii.net" />
         <meta property="og:type" content="website" />
-        <meta name="author" content="Arteii" />
+        <meta name="author" content="Ben Braun" />
         <meta
           name="keywords"
           content="arteii, blog, documentation, linux, programming, windows, kernel, python"

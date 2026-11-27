@@ -17,7 +17,7 @@ Connect with me:
 
 - GitHub: [Arteiii](https://github.com/Arteiii)
 - Discord: `arteii`
-- Email: [ben.pilger@arteii.net](mailto:ben.pilger@arteii.net)
+- Email: [bbraun@arteii.net](mailto:bbraun@arteii.net)
 
 ## Getting Started
 

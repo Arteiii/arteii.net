@@ -21,14 +21,14 @@ jobs:
 
           AVATAR_B64=$(base64 -w 0 ./static/img/arteii_avatar_small.jpg)
 
-          cat << EOF > static/download/ben_pilger.vcf
+          cat << EOF > static/download/ben_braun.vcf
           BEGIN:VCARD
           VERSION:3.0
-          FN:Ben Pilger
-          N:Pilger;Ben;;;
+          FN:Ben Braun
+          N:Braun;Ben;;;
           TITLE:Systems & Security Engineer, IT Trainer
           TEL;TYPE=CELL,VOICE:+4916098641438
-          EMAIL;TYPE=PREF,INTERNET:ben.pilger@arteii.net
+          EMAIL;TYPE=PREF,INTERNET:bbraun@arteii.net
           URL:https://arteii.net
           PHOTO;TYPE=JPEG;ENCODING=B:${AVATAR_B64}
           X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/ben-pilger/
@@ -37,6 +37,9 @@ jobs:
           REV:$(date -u +'%Y%m%dT%H%M%SZ')
           END:VCARD
           EOF
+
+          # keep the old filename working for existing links and QR codes
+          cp static/download/ben_braun.vcf static/download/ben_pilger.vcf
 
       - name: Compile LaTeX to PDF via XeLaTeX
         uses: xu-cheng/latex-action@v4

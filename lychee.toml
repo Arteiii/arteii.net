@@ -9,6 +9,7 @@ exclude = [
 
     '/resume',
     'ben_pilger.vcf',
+    'ben_braun.vcf',
 
     # Amazon blocks automated requests (503)
     '^https://(www\.)?amazon\.com/',

@@ -10,8 +10,8 @@ import {
 export default function ResumeHub() {
   return (
     <Layout
-      title="Document Hub"
-      description="Access or download my CV and Resume"
+      title="CV & Resume – Ben Braun"
+      description="CV and resume of Ben Braun, Systems & Security Engineer and IT trainer near Frankfurt. Download as PDF, HTML or Markdown."
       wrapperClassName="homepage flex flex-col"
     >
       <main className="mx-auto max-w-5xl p-4 py-12 font-jakarta">
