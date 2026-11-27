@@ -1,7 +1,7 @@
 ::: center
 **Ben Braun**\
 Systems & Security Engineer  IT Trainer  Founder of otoya\
- Dreieich, Germany  +49 160 98641438  <bbraun@arteii.net>\
+ Dreieich bei Frankfurt, Germany  +49 160 98641438  <bbraun@arteii.net>\
  [arteii.net](https://arteii.net)
  [github.com/arteiii](https://github.com/arteiii)
  [linkedin.com/in/ben-pilger](https://linkedin.com/in/ben-pilger)

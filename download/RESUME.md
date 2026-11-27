@@ -1,7 +1,7 @@
 ::: center
-**Ben Pilger**\
-Systems & Security Engineer  IT Trainer\
- Stuttgart, Germany  +49 160 98641438  <ben.pilger@arteii.net>\
+**Ben Braun**\
+Systems & Security Engineer  IT Trainer  Founder of otoya\
+ Dreieich bei Frankfurt, Germany  +49 160 98641438  <bbraun@arteii.net>\
  [arteii.net](https://arteii.net)
  [github.com/arteiii](https://github.com/arteiii)
  [linkedin.com/in/ben-pilger](https://linkedin.com/in/ben-pilger)
@@ -16,7 +16,8 @@ architectures, and providing technical leadership for complex enterprise
 IAM and fraud mitigation services from protocol specification to
 deployment. Combines advanced offensive security insights with the
 engineering discipline required to deliver fault-tolerant software at
-massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
+massive scale ($>$`<!-- -->`{=html}200K RPS) with strict sub-100ms
+latency guarantees.
 
 # Core Expertise
 
@@ -31,7 +32,17 @@ massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
 
 # Professional Experience
 
-*Stuttgart, Germany*\
+*Dreieich, Germany*\
+*Founder* 10/2026 -- Ongoing
+
+- **Design-led Audio Hardware:** Building a design-led audio brand
+  around the h1 loudspeaker series and the s1 network streamer.
+
+- **Software & Product:** Built the complete software platform (music
+  server, player, web UI, device UI, app, v1.0.0 in 10/2026) alongside
+  product design, CAD, cost planning and supplier sourcing.
+
+*Germany*\
 *Independent Consultant & Technical Trainer* 07/2026 -- Ongoing
 
 - **Systems Engineering Consultancy:** Provide specialized research,
@@ -52,7 +63,8 @@ massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
 
 - **High-Concurrency Infrastructure:** Migrated legacy polyglot services
   (C++, Erlang, TypeScript) to a high-performance Rust architecture,
-  optimizing systems for \>200K RPS and strict sub-100ms latency.
+  optimizing systems for $>$`<!-- -->`{=html}200K RPS and strict
+  sub-100ms latency.
 
 *Stuttgart, Germany*\
 *Systems & Security Engineer* 11/2024 -- 03/2025
@@ -66,11 +78,11 @@ massive scale (\>200K RPS) with strict sub-100ms latency guarantees.
   lifecycle installers and international payment gateways.
 
 *Remote*\
-*Offensive Tooling & Compatibility Engineering* 03/2023 -- 08/2024
+*Security Research & Compatibility Engineering* 03/2023 -- 08/2024
 
-- **Reverse Engineering:** Bypassed complex runtime integrity
-  protections and anti-tamper mechanisms using static and dynamic
-  analysis tools (IDA Pro, WinDbg).
+- **Reverse Engineering & Security Analysis:** Analyzed complex security
+  mechanisms and runtime protections using static and dynamic analysis
+  tools (IDA Pro, WinDbg).
 
 - **Memory Manipulation & Stability:** Built high-performance user- and
   kernel-mode tooling for memory injections, maintaining strict runtime

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarteiii_github_io||=[]).push([[529],{1344(t){t.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":3,"totalPages":1,"totalCount":3,"blogDescription":"Articles by Ben Braun on systems programming, security, cryptography, Linux and Python.","blogTitle":"Blog"}}')}}]);

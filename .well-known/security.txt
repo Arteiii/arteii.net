@@ -1,4 +1,4 @@
-Contact: mailto:ben.pilger@arteii.net
+Contact: mailto:bbraun@arteii.net
 Expires: 2027-06-29T14:00:00.000Z
 Preferred-Languages: en, de
 Encryption: https://arteii.net/.well-known/benpilger.gpg
